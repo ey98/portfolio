@@ -1,0 +1,200 @@
+.header {
+  color: black;
+  font-family: Gruppo;
+}
+
+h1, h2, h3, h4, p {
+  font-family: Gruppo;
+}
+
+h2, .selectedworks {
+  text-decoration: underline;
+  line-height: 1.0em;
+  font-size: 20pt;
+  font-family: Gruppo;
+}
+
+.queens {
+  color: #144718
+}
+
+.cornell {
+  color: #b92015;
+}
+
+p {
+  font-variant: small-caps;
+}
+
+figcaption {
+  font-family: sans-serif;
+  font-size: 9pt;
+  line-height: 0.4em;
+  font-style: italic;
+}
+
+h3, .myname, .latest {
+  font-size: 20pt;
+  line-height: 1.0em;
+  font-family: Gruppo;
+}
+
+.playlist {
+  color: #000000;
+}
+
+.linkedin, .instagram {
+  font-size: 24pt;
+  line-height: 1.4em;
+  color: #000000;
+}
+
+.mailto {
+  color: #000000;
+  line-height: 1.4em;
+}
+
+.email {
+  font-size: 10pt;
+  line-height: 0.6em;
+  color: #000000;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 3px;
+  background: #ffffff;
+  font-family: sans-serif;
+  font-style: italic;
+  padding: 28px;
+  line-height: 1.2em;
+  font-size: 9pt;
+  overflow: auto;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ffffff;
+  float: left;
+  width: 390px;
+}
+
+img{
+  width: 300px;
+  margin: 20px;
+  align-self: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.wrapper, .gallery {
+  display: flex;
+}
+
+.slides{
+  display: flex;
+  flex-direction: column;
+  position: static;
+  margin: 150px;
+}
+
+.leftname {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 1px;
+}
+
+.left {
+  width: 50%;
+  padding: 100px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.right {
+  width: 50%;
+  padding: 100px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.bottomright {
+  display: block;
+  position: fixed ;
+  bottom: 0;
+  right: 1px;
+}
+
+.bottomleft {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 1.5px;
+}
+
+.latest {
+  font-size: 12pt;
+  line-height: 0.5em;
+}
+
+.menu li {
+  display: inline;
+  font-size: 9.5pt;
+}
+
+ul {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.selectedworks {
+  text-align: center;
+  align-content: center;
+}
+
+.gallery {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.desc {
+  font-family: sans-serif;
+  font-style: italic;
+  padding: 15px;
+  line-height: 0.4em;
+  font-size: 9pt;
+  text-align: center;
+}
+
+.aboutpage {
+  align-items: center;
+}
+
+em {
+  color: #000000;
+  font-weight: bold;
+}
+
+.resumeimage, .aboutpage {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.slide {
+    float: left;
+    width:  300px;
+    height: 200px;
+    object-fit: cover;
+}
